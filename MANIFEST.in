@@ -1,0 +1,4 @@
+graft src/kitconcept.voltodemo
+graft docs
+include *.rst
+global-exclude *.pyc
