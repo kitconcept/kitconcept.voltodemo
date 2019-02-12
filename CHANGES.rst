@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.0a2 (unreleased)
+1.0.0a2 (2019-02-12)
 --------------------
 
 - Fix not set value on site serializer.
