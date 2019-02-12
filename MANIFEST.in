@@ -1,4 +1,12 @@
 graft src/kitconcept.voltodemo
 graft docs
+recursive-include src *.gitkeep
+recursive-include src *.po
+recursive-include src *.pot
+recursive-include src *.robot
+recursive-include src *.sh
+recursive-include src *.xml
+recursive-include src *.zcml
 include *.rst
+include *.txt
 global-exclude *.pyc
