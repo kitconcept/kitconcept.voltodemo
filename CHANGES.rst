@@ -5,7 +5,11 @@ Changelog
 1.0.0a4 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Remove Homepage content type
+- Add default tiles to portal the proper way
+- Add title
+- Add CORS default config
+  [sneridagh]
 
 
 1.0.0a3 (2019-02-12)
