@@ -12,6 +12,8 @@
 
   <include package=".browser" />
 
+  <adapter factory=".serializers.site.SerializeSiteRootToJson" />
+
   <include file="upgrades.zcml" />
 
   <genericsetup:registerProfile
