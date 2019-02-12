@@ -5,8 +5,8 @@ Changelog
 1.0.0a3 (unreleased)
 --------------------
 
-- Nothing changed yet.
-
+- Fix it as json loads spects strings...
+  [sneridagh]
 
 1.0.0a2 (2019-02-12)
 --------------------
