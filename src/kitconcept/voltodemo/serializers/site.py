@@ -47,8 +47,8 @@ class SerializeSiteRootToJson(object):
             'title': self.context.Title(),
             'parent': {},
             'is_folderish': True,
-            'tiles': json.loads(self.context.tiles),
-            'tiles_layout': json.loads(self.context.tiles_layout)
+            'tiles': json.loads(getattr(self.context, 'tiles', {})),
+            'tiles_layout': json.loads(getattr(self.context, 'tiles_layout', {})) # noqa
         }
 
         # Insert expandable elements
