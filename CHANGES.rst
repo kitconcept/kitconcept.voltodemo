@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.0a3 (unreleased)
+1.0.0a3 (2019-02-12)
 --------------------
 
 - Fix it as json loads spects strings...
