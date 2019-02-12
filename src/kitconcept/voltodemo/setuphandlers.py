@@ -361,3 +361,5 @@ def create_default_homepage():
 
     if not getattr(portal, 'tiles_layout', False):
         portal.manage_addProperty('tiles_layout', json.dumps(tiles_layout), 'string') # noqa
+
+    portal.setTitle('Welcome to Volto!')
