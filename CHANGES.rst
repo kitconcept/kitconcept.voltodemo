@@ -5,7 +5,8 @@ Changelog
 1.0.0a5 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Remove CORS, since we put it on the buildout
+  [sneridagh]
 
 
 1.0.0a4 (2019-02-12)
