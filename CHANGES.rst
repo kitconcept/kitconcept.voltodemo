@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.0a6 (unreleased)
+1.0.0a6 (2019-02-15)
 --------------------
 
 - Enable editing on the Plone Site with Volto Editor :)
