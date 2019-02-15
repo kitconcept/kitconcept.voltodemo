@@ -45,6 +45,7 @@ class SerializeSiteRootToJson(object):
             'id': self.context.id,
             '@type': 'Plone Site',
             'title': self.context.Title(),
+            'description': self.context.description,
             'parent': {},
             'is_folderish': True,
             'tiles': json.loads(getattr(self.context, 'tiles', '{}')),
