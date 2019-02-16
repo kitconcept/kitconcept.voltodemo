@@ -5,7 +5,8 @@ Changelog
 1.0.0a7 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Remove from the main nav non folderish items.
+  [sneridagh]
 
 
 1.0.0a6 (2019-02-15)
