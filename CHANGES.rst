@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.0a7 (unreleased)
+1.0.0a7 (2019-02-16)
 --------------------
 
 - Remove from the main nav non folderish items.
