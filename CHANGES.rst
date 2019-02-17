@@ -5,7 +5,8 @@ Changelog
 1.0.0a8 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Updated front page.
+  [sneridagh]
 
 
 1.0.0a7 (2019-02-16)
