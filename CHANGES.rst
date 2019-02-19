@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.0a9 (unreleased)
+1.0.0a9 (2019-02-19)
 --------------------
 
 - Adding the PAS plugin to workaround the images/files pull from HTML.
