@@ -8,7 +8,7 @@ Changelog
 - Adding the PAS plugin to workaround the images/files pull from HTML.
   [sneridagh]
 
-- Remove Event type.
+- Remove Event, Link and Collection type.
   [sneridagh]
 
 1.0.0a8 (2019-02-17)
