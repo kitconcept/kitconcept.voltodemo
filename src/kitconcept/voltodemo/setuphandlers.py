@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from jungzeelandia.policy.pas.plugin import JWTCookieAuthPlugin
+from kitconcept.voltodemo.pas.plugin import JWTCookieAuthPlugin
 from plone import api
 from Products.CMFPlone.interfaces import INonInstallable
 from zope.interface import implementer
@@ -31,7 +31,7 @@ def install_pas_plugin(context):
 
 def post_install(context):
     """Post install script"""
-    portal = context.getSite()
+    portal = api.portal.get()
 
     create_default_homepage()
     install_pas_plugin(portal)
