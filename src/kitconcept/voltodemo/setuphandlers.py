@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from jungzeelandia.policy.pas.plugin import JWTCookieAuthPlugin
 from plone import api
 from Products.CMFPlone.interfaces import INonInstallable
 from zope.interface import implementer
@@ -16,9 +17,24 @@ class HiddenProfiles(object):
         ]
 
 
+def install_pas_plugin(context):
+    uf = api.portal.get_tool('acl_users')
+    if 'cookie_jwt_auth' not in uf:
+        plugin = JWTCookieAuthPlugin('cookie_jwt_auth')
+        uf._setObject(plugin.getId(), plugin)
+        plugin = uf['cookie_jwt_auth']
+        plugin.manage_activateInterfaces([
+            'IAuthenticationPlugin',
+            'IExtractionPlugin',
+        ])
+
+
 def post_install(context):
     """Post install script"""
+    portal = context.getSite()
+
     create_default_homepage()
+    install_pas_plugin(portal)
 
 
 def uninstall(context):

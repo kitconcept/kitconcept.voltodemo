@@ -5,8 +5,11 @@ Changelog
 1.0.0a9 (unreleased)
 --------------------
 
-- Nothing changed yet.
+- Adding the PAS plugin to workaround the images/files pull from HTML.
+  [sneridagh]
 
+- Remove Event type.
+  [sneridagh]
 
 1.0.0a8 (2019-02-17)
 --------------------
