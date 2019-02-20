@@ -5,7 +5,8 @@ Changelog
 1.0.0a10 (unreleased)
 ---------------------
 
-- Nothing changed yet.
+- Add a *inner* admin user to overcome the limitation on using Zope users.
+  [sneridagh]
 
 
 1.0.0a9 (2019-02-19)

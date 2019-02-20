@@ -29,12 +29,21 @@ def install_pas_plugin(context):
         ])
 
 
+def add_inner_admin_hack(portal):
+    pm = api.portal.get_tool('portal_membership')
+    pm.addMember('admin', 'admin', ['Manager', ], [])
+
+
 def post_install(context):
     """Post install script"""
     portal = api.portal.get()
 
     create_default_homepage()
     install_pas_plugin(portal)
+
+    # This is required for the PAS plugin to work, the site under an Nginx VH
+    # doesn't work on Zope users
+    add_inner_admin_hack(portal)
 
 
 def uninstall(context):
