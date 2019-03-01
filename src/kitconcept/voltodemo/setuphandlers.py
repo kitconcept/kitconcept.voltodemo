@@ -36,14 +36,15 @@ def add_inner_admin_hack(portal):
 
 def post_install(context):
     """Post install script"""
-    portal = api.portal.get()
+    # portal = api.portal.get()
 
     create_default_homepage()
-    install_pas_plugin(portal)
 
+    # Since Volto 1.6.0 this is not required any more. Left for reference.
+    # install_pas_plugin(portal)
     # This is required for the PAS plugin to work, the site under an Nginx VH
     # doesn't work on Zope users
-    add_inner_admin_hack(portal)
+    # add_inner_admin_hack(portal)
 
 
 def uninstall(context):
