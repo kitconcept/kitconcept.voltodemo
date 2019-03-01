@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.0a11 (unreleased)
+1.0.0a11 (2019-03-01)
 ---------------------
 
 - Remove PAS plugin hack since in Volto 1.6.0 it is not required anymore.
