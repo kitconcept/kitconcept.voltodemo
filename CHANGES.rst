@@ -5,7 +5,8 @@ Changelog
 1.0.0a12 (unreleased)
 ---------------------
 
-- Nothing changed yet.
+- Update versions on homepage.
+  [sneridagh]
 
 
 1.0.0a11 (2019-03-01)
