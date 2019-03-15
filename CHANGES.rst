@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.0a12 (unreleased)
+1.0.0a12 (2019-03-15)
 ---------------------
 
 - Update versions on homepage.
