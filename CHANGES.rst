@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.0.0a13 (unreleased)
+1.0.0a13 (2019-03-25)
 ---------------------
 
-- Nothing changed yet.
+- Update versions on homepage.
+  [sneridagh]
 
 
 1.0.0a12 (2019-03-15)

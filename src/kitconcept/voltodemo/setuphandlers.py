@@ -299,7 +299,7 @@ def create_default_homepage():
                       "entityRanges": [],
                       "inlineStyleRanges": [],
                       "key": "55n44",
-                      "text": "You can use this site to test Volto. It's runs Volto 1.8.0 using Plone 5.1.6 Backend and Plone REST API 3.7.5",
+                      "text": "You can use this site to test Volto. It's runs Volto 2.0.0 using Plone 5.1.6 Backend and Plone REST API 3.8.1",
                       "type": "unstyled"
                   }
               ],
