@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from kitconcept.voltodemo.pas.plugin import JWTCookieAuthPlugin
 from plone import api
 from Products.CMFPlone.interfaces import INonInstallable
 from zope.interface import implementer
@@ -17,34 +16,11 @@ class HiddenProfiles(object):
         ]
 
 
-def install_pas_plugin(context):
-    uf = api.portal.get_tool('acl_users')
-    if 'cookie_jwt_auth' not in uf:
-        plugin = JWTCookieAuthPlugin('cookie_jwt_auth')
-        uf._setObject(plugin.getId(), plugin)
-        plugin = uf['cookie_jwt_auth']
-        plugin.manage_activateInterfaces([
-            'IAuthenticationPlugin',
-            'IExtractionPlugin',
-        ])
-
-
-def add_inner_admin_hack(portal):
-    pm = api.portal.get_tool('portal_membership')
-    pm.addMember('admin', 'admin', ['Manager', ], [])
-
-
 def post_install(context):
     """Post install script"""
     # portal = api.portal.get()
 
     create_default_homepage()
-
-    # Since Volto 1.6.0 this is not required any more. Left for reference.
-    # install_pas_plugin(portal)
-    # This is required for the PAS plugin to work, the site under an Nginx VH
-    # doesn't work on Zope users
-    # add_inner_admin_hack(portal)
 
 
 def uninstall(context):
