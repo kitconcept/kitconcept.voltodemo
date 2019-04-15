@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.0.0a15 (unreleased)
+1.0.0a15 (2019-04-15)
 ---------------------
 
-- Nothing changed yet.
+- Add optional module with CORS ZCML.
+  [sneridagh]
 
 
 1.0.0a14 (2019-04-15)
