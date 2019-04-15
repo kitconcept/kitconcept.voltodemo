@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.0.0a14 (unreleased)
+1.0.0a14 (2019-04-15)
 ---------------------
 
-- Nothing changed yet.
+- Update to Python3 and Plone 5.2
+  [sneridagh]
 
 
 1.0.0a13 (2019-03-25)
