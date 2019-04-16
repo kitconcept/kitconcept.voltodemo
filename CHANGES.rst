@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.0.0a16 (unreleased)
+1.0.0a16 (2019-04-16)
 ---------------------
 
-- Nothing changed yet.
+- Renamed optional cors configuration module, install restapi from scratch.
+  [sneridagh]
 
 
 1.0.0a15 (2019-04-15)
