@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.0.0a17 (unreleased)
+1.0.0a17 (2019-04-16)
 ---------------------
 
-- Nothing changed yet.
+- Add collective.folderishtypes
+  [sneridagh]
 
 
 1.0.0a16 (2019-04-16)

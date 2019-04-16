@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='kitconcept.voltodemo',
-    version='1.0.0a17.dev0',
+    version='1.0.0a17',
     description='',
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -42,9 +42,8 @@ setup(
         'Products.GenericSetup>=1.8.2',
         'setuptools',
         'z3c.jbot',
-        # 'plone.restapi',
-        # 'Products.PloneFormGen',
-        # 'plone.formwidget.captcha',
+        'plone.restapi',
+        'collective.folderishtypes[dexterity]'
     ],
     extras_require={
         'test': [
