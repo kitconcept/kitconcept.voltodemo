@@ -5,7 +5,8 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix small typos and link ranges
+  [sneridagh]
 
 
 1.0.0 (2019-04-18)

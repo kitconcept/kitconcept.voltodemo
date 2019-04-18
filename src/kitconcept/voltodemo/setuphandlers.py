@@ -114,12 +114,12 @@ def create_default_homepage():
                           {
                               "key": 1,
                               "length": 8,
-                              "offset": 446
+                              "offset": 452
                           }
                       ],
                       "inlineStyleRanges": [],
                       "key": "behki",
-                      "text": "Plone is a CMS built on Python with over 17 years of experience. Plone has very interesting features that appeal to developers and users alike, such customizable content types, hierarchical URL object traversing and a sophisticated content workflow powered by a granular permissions model. This allows you to build anything from simple websites to enterprise-grade intranets. Volto exposes all these features and communicates with Plone via its mature REST API. Volto can be esily themed and is highly customizable.",
+                      "text": "Plone is a CMS built on Python with over 17 years of experience. Plone has very interesting features that appeal to developers and users alike, such as customizable content types, hierarchical URL object traversing and a sophisticated content workflow powered by a granular permissions model. This allows you to build anything from simple websites to enterprise-grade intranets. Volto exposes all these features and communicates with Plone via its mature REST API. Volto can be esily themed and is highly customizable.",
                       "type": "unstyled"
                   }
               ],
@@ -220,7 +220,7 @@ def create_default_homepage():
                       "entityRanges": [],
                       "inlineStyleRanges": [
                           {
-                              "length": 11,
+                              "length": 12,
                               "offset": 51,
                               "style": "BOLD"
                           }
@@ -275,7 +275,7 @@ def create_default_homepage():
                       "entityRanges": [],
                       "inlineStyleRanges": [],
                       "key": "55n44",
-                      "text": "You can use this site to test Volto. It's runs Volto 2.0.0 using Plone 5.1.6 Backend and Plone REST API 3.8.1",
+                      "text": "You can use this site to test Volto. It runs Volto 2.0.0 using Plone 5.1.6 Backend and Plone REST API 3.8.1",
                       "type": "unstyled"
                   }
               ],
