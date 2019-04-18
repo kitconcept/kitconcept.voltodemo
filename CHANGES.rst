@@ -2,10 +2,14 @@ Changelog
 =========
 
 
-1.0.0a18 (unreleased)
----------------------
+1.0.0 (2019-04-18)
+------------------
 
-- Nothing changed yet.
+- Amend the text on the home page.
+  [sneridagh]
+
+- Releasing 1.0.0
+  [sneridagh]
 
 
 1.0.0a17 (2019-04-16)
