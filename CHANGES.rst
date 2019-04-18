@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0.1 (unreleased)
+1.0.1 (2019-04-18)
 ------------------
 
 - Fix small typos and link ranges
