@@ -68,7 +68,7 @@ def create_default_homepage():
                           }
                       ],
                       "key": "6470b",
-                      "text": "Disclaimer: This instance is resetted every night, so all changes will be lost afterwards.",
+                      "text": "Disclaimer: This instance is reset every night, so all changes will be lost afterwards.",
                       "type": "unstyled"
                   }
               ],
@@ -119,7 +119,7 @@ def create_default_homepage():
                       ],
                       "inlineStyleRanges": [],
                       "key": "behki",
-                      "text": "Plone is a CMS built on Python with more than 17 years of experience. Plone has very interesting features that are still appealing to developers and users alike as customizable content types, hierarchical URL object traversing and a complex content workflow powered by a granular permissions model that allows you to build from simple websites to complex huge intranets. Volto exposes all that features and communicates with Plone via its mature REST API. Volto has the ability of being highly themable and customizable.",
+                      "text": "Plone is a CMS built on Python with over 17 years of experience. Plone has very interesting features that appeal to developers and users alike, such customizable content types, hierarchical URL object traversing and a sophisticated content workflow powered by a granular permissions model. This allows you to build anything from simple websites to enterprise-grade intranets. Volto exposes all these features and communicates with Plone via its mature REST API. Volto can be esily themed and is highly customizable.",
                       "type": "unstyled"
                   }
               ],
@@ -226,7 +226,7 @@ def create_default_homepage():
                           }
                       ],
                       "key": "94arl",
-                      "text": "You can log in and use it as admin user using this credentials:",
+                      "text": "You can log in and use it as admin user using these credentials:",
                       "type": "unstyled"
                   }
               ],
@@ -338,7 +338,7 @@ def create_default_homepage():
                       ],
                       "inlineStyleRanges": [],
                       "key": "68rve",
-                      "text": "Volto also supports other APIs like Guillotina, a Python resource management system, which is inspired on Plone using the same basic concepts like traversal, content types and permissions model.",
+                      "text": "Volto also supports other APIs like Guillotina, a Python resource management system, inspired by Plone and using the same basic concepts like traversal, content types and permissions model.",
                       "type": "unstyled"
                   }
               ],
