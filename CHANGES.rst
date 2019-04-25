@@ -5,7 +5,11 @@ Changelog
 1.0.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Documentation.
+  [sneridagh]
+
+- Clean up package, Python 3, tests.
+  [sneridagh]
 
 
 1.0.1 (2019-04-18)
