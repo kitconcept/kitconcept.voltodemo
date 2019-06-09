@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.1.1 (unreleased)
+1.1.1 (2019-06-09)
 ------------------
 
-- Nothing changed yet.
+- Update version numbers
+  [sneridagh]
 
 
 1.1.0 (2019-05-04)
