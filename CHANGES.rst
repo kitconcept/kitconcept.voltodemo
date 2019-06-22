@@ -5,7 +5,8 @@ Changelog
 1.5 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Add Volto settings control panel with frontend_domain field.
+  [fredvd]
 
 
 1.4 (2019-09-12)
