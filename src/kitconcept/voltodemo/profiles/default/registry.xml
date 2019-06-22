@@ -3,4 +3,7 @@
   <records interface="Products.CMFPlone.interfaces.controlpanel.INavigationSchema" prefix="plone">
     <value key="nonfolderish_tabs">False</value>
   </records>
+  <records interface="kitconcept.voltodemo.interfaces.IVoltoSettings" prefix="volto">
+  </records>
 </registry>
+
