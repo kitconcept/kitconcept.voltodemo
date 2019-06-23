@@ -41,5 +41,5 @@
 
   <adapter
     factory=".controlpanel.VoltoControlpanel"
-    name="date-and-time" />
+    name="volto-settings" />
 </configure>
