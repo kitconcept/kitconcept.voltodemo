@@ -5,7 +5,8 @@ Changelog
 1.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Update the text with more agnostic numbers.
+  [sneridagh]
 
 
 1.1.1 (2019-06-09)
