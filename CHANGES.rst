@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.1.2 (unreleased)
+1.1.2 (2019-08-28)
 ------------------
 
 - Update the text with more agnostic numbers.
