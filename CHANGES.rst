@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.1.3 (unreleased)
+1.1.3 (2019-08-30)
 ------------------
 
-- Nothing changed yet.
+- Pin p.restapi version.
+  [sneridagh]
 
 
 1.1.2 (2019-08-28)

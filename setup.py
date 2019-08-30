@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='kitconcept.voltodemo',
-    version='1.1.3.dev0',
+    version='1.1.3',
     description='',
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -41,7 +41,7 @@ setup(
         'plone.api',
         'Products.GenericSetup>=1.8.2',
         'setuptools',
-        'plone.restapi',
+        'plone.restapi>=4.4.0',
         'collective.folderishtypes[dexterity]'
     ],
     extras_require={
