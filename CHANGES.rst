@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.1.4 (unreleased)
+1.2.0 (2019-08-30)
 ------------------
 
-- Nothing changed yet.
+- UnPin p.restapi, because of conflicts, meh
+  [sneridagh]
 
 
 1.1.3 (2019-08-30)
