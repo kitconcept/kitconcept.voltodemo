@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-1.2.1 (unreleased)
-------------------
+1.3 (2019-08-30)
+----------------
 
-- Nothing changed yet.
+- Re-add the collection to be available.
+  [sneridagh]
 
 
 1.2.0 (2019-08-30)
