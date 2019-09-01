@@ -5,7 +5,8 @@ Changelog
 1.4 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Add Collection Type.
+ [timo]
 
 
 1.3 (2019-08-30)

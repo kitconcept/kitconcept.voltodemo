@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="Collection" meta_type="Dexterity FTI" i18n:domain="plone" 
+  xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+
+  <property name="allowed_content_types">
+    <element value="Collection"/>
+    <element value="Document"/>
+    <element value="Event"/>
+    <element value="File"/>
+    <element value="Folder"/>
+    <element value="Image"/>
+    <element value="Link"/>
+    <element value="News Item"/>
+  </property>
+  <property name="filter_content_types">False</property>
+  <property name="global_allow">True</property>
+
+</object>

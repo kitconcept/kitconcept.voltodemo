@@ -3,4 +3,12 @@
   <records interface="Products.CMFPlone.interfaces.controlpanel.INavigationSchema" prefix="plone">
     <value key="nonfolderish_tabs">False</value>
   </records>
+
+  <!-- Restrict types to display in navigation -->
+  <record name="plone.displayed_types" interface="Products.CMFPlone.interfaces.controlpanel.INavigationSchema" field="displayed_types">
+    <value>
+      <element>Collection</element>
+    </value>
+  </record>
+
 </registry>
