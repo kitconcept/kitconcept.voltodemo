@@ -5,7 +5,8 @@ Changelog
 1.4 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Re-add the link to be available.
+  [sneridagh]
 
 
 1.3 (2019-08-30)
