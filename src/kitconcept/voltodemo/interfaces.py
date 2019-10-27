@@ -18,6 +18,6 @@ class IVoltoSettings(Interface):
 
     frontend_domain = schema.URI(
         title = "Frontend domain",
-        description = "Used for rewriting URL's sent in the password reset tool e-mail.",
-        default="http://localhost:3000/"
+        description = "Used for rewriting URL's sent in the password reset e-mail by Plone." \
+        default="http://localhost:3000"
     )
