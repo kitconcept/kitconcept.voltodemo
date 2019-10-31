@@ -31,13 +31,13 @@ https://github.com/plone/volto/blob/master/api/base.cfg#L13
 Demo home page
 --------------
 
-It features a hack to make the Plone site Volto tiles enabled with some demo
+It features a hack to make the Plone site Volto Blocks enabled with some demo
 content.
 
 Volto Editor
 -------------
 
-It enables the Volto tiles behavior on the ``Document`` content type by
+It enables the Volto Blocks behavior on the ``Document`` content type by
 default, enabling Volto editor for that content type.
 
 Disabled content types
