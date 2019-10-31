@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.5 (unreleased)
+2.0 (2019-10-31)
 ----------------
 
 - Patch Password reset tool in Products.CMFPlone to use the optional volto_domain in the

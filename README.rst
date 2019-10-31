@@ -57,26 +57,8 @@ A quick helper for enable CORS for development config is also provided in the
 
 from you ZCML while developing.
 
-Development
------------
+Versions compatibility
+----------------------
 
-Requirements:
-
-- Python 3/2.7
-- Virtualenv
-
-Setup::
-
-  make
-
-Run Static Code Analysis::
-
-  make code-Analysis
-
-Run Unit / Integration Tests::
-
-  make test
-
-Run Robot Framework based acceptance tests::
-
-  make test-acceptance
+kitconcept.voltodemo < 2 Volto 3 and Volto 4 until alpha 9
+kitconcept.voltodemo >= 2 Volto 4 (from alpha 10)
