@@ -4,6 +4,8 @@
     xmlns:zcml="http://namespaces.zope.org/zcml"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
     i18n_domain="kitconcept.voltodemo">
 
   <includeDependencies package="." />
@@ -28,6 +30,25 @@
 
   <utility
       factory=".setuphandlers.HiddenProfiles"
-      name="kitconcept.voltodemo-hiddenprofiles" />
+      name="kitconcept.voltodemo-hiddenprofiles"
+      />
 
+  <browser:page
+      name="volto_settings"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".controlpanel.VoltoSettingsControlPanel"
+      permission="cmf.ManagePortal"
+      />
+
+  <adapter
+    factory=".controlpanel.VoltoControlpanel"
+    name="volto-settings" />
+
+  <monkey:patch
+      description="Patch password reset tool construct URL to cater for different frontend domain"
+      class="Products.CMFPlone.browser.login.password_reset.PasswordResetToolView"
+      original="construct_url"
+      replacement=".patches.construct_url"
+      docstringWarning="True"
+      />
 </configure>
