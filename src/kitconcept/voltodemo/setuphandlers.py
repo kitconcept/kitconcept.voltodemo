@@ -45,7 +45,7 @@ def add_catalog_indexes(context, wanted=None):
 def create_default_homepage():
     portal = api.portal.get()
 
-    tiles = {
+    blocks = {
       "0358abe2-b4f1-463d-a279-a63ea80daf19": {
           "@type": "description"
       },
@@ -357,7 +357,7 @@ def create_default_homepage():
       }
     }
 
-    tiles_layout = {
+    blocks_layout = {
       "items": [
           "07c273fc-8bfc-4e7d-a327-d513e5a945bb",
           "0358abe2-b4f1-463d-a279-a63ea80daf19",
@@ -376,11 +376,11 @@ def create_default_homepage():
       ]
     }
 
-    if not getattr(portal, 'tiles', False):
-        portal.manage_addProperty('tiles', json.dumps(tiles), 'string')
+    if not getattr(portal, 'blocks', False):
+        portal.manage_addProperty('blocks', json.dumps(blocks), 'string')
 
-    if not getattr(portal, 'tiles_layout', False):
-        portal.manage_addProperty('tiles_layout', json.dumps(tiles_layout), 'string') # noqa
+    if not getattr(portal, 'blocks_layout', False):
+        portal.manage_addProperty('blocks_layout', json.dumps(blocks_layout), 'string') # noqa
 
     portal.setTitle('Welcome to Volto!')
     portal.setDescription('The React powered content management system')
