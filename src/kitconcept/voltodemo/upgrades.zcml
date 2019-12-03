@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="kitconcept.voltodemo">
+
+  <genericsetup:upgradeDepends
+    source="1009"
+    destination="1010"
+    profile="kitconcept.voltodemo:default"
+    title="Apply types.xml to update typesinfo"
+    import_steps="typeinfo"
+    />
+
+</configure>

@@ -9,6 +9,7 @@
     i18n_domain="kitconcept.voltodemo">
 
   <includeDependencies package="." />
+  <include file="upgrades.zcml" />
 
   <genericsetup:registerProfile
       name="default"

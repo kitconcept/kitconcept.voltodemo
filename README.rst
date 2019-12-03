@@ -40,6 +40,11 @@ Volto Editor
 It enables the Volto Blocks behavior on the ``Document`` content type by
 default, enabling Volto editor for that content type.
 
+Document content type
+---------------------
+
+``Richtext`` and ``table of contents`` behaviors has been removed from the ``Document`` behaviors since it's confusing for the users if it shows in the form.
+
 Disabled content types
 ----------------------
 
