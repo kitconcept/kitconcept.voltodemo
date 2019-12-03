@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.2 (unreleased)
+2.2 (2019-12-03)
 ----------------
 
 - Add Volto blocks :)
