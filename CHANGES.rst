@@ -5,7 +5,8 @@ Changelog
 2.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Removed Richtext and toc behaviors from Document content type
+  [sneridagh]
 
 
 2.0 (2019-10-31)
