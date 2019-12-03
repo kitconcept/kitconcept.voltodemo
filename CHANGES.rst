@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-2.1 (unreleased)
+2.1 (2019-12-03)
 ----------------
 
 - Removed Richtext and toc behaviors from Document content type
