@@ -5,7 +5,8 @@ Changelog
 2.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Add Volto blocks :)
+  [sneridagh]
 
 
 2.1 (2019-12-03)
