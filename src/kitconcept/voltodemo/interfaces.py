@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """Module where all interfaces, events and exceptions live."""
-from zope.publisher.interfaces.browser import IDefaultBrowserLayer
 from plone.supermodel import model
 from zope import schema
 from zope.interface import Interface
+from zope.publisher.interfaces.browser import IDefaultBrowserLayer
 
 
 class IKitconceptvoltodemoCoreLayer(IDefaultBrowserLayer):
@@ -20,7 +20,8 @@ class IVoltoSettings(Interface):
     """
 
     frontend_domain = schema.URI(
-        title="Frontend domain",
-        description="Used for rewriting URL's sent in the password reset e-mail by Plone.",
+        title=u"Frontend domain",
+        description=u"Used for rewriting URL's sent in the password reset "
+        u"e-mail by Plone.",
         default="http://localhost:3000",
     )
