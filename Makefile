@@ -3,7 +3,7 @@
 SHELL := /bin/bash
 CURRENT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 
-version = 3
+version = 3.7
 
 # We like colors
 # From: https://coderwall.com/p/izxssa/colored-makefile-for-golang-projects
@@ -26,6 +26,7 @@ help: ## This help message
 bin/buildout: bin/pip
 	bin/pip install --upgrade pip
 	bin/pip install -r requirements.txt
+	bin/pip install black
 	@touch -c $@
 
 .PHONY: Build Plone 5.1

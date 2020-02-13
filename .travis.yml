@@ -13,6 +13,8 @@ before_install:
   - echo "[buildout]" > $HOME/.buildout/default.cfg
   - echo "download-cache = $HOME/buildout-cache/downloads" >> $HOME/.buildout/default.cfg
   - echo "eggs-directory = $HOME/buildout-cache/eggs" >> $HOME/.buildout/default.cfg
+  - pip install black || true
 script:
+  - if [ -x "$(command -v black)" ]; then black src/ --check ; fi
   - make
   - make test
